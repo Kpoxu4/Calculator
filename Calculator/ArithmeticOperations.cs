@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace Calculator
+﻿namespace Calculator
 {
     public class ArithmeticOperations
     {
-        public static double Arithmetic(double x, double y, char arithmetic) 
+        public static double Arithmetic(double x, double y, char arithmetic)
         {
             double result = 0;
             switch (arithmetic)
